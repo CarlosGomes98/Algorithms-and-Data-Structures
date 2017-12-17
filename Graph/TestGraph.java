@@ -12,5 +12,6 @@ public class TestGraph{
         graph.printGraph();
         System.out.println(graph.DFS(scan.nextInt()));
         System.out.println(graph.BFS(scan.nextInt()));
+        scan.close();
     }
 }
